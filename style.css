@@ -1,0 +1,850 @@
+/* Code by Saleh-Ibne-Omar 
+Date: 09-May-2018
+*/
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    border-bottom: 12px solid white;
+}
+
+.header-img-container{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(to top, rgba(64, 115, 158,1.0) 50%, rgba(64, 115, 158, 0.9) 50%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 4px  rgba(0,0,0,0.5);
+}
+
+.header-img{
+    width: 15%;
+    margin: 0 auto;
+    padding: 35px 0;
+}
+.header-img img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 6px solid silver;
+}
+.section1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    border-bottom: 12px solid white;
+}
+
+.section1-img-container{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0;
+    background: rgba(223, 228, 234, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
+}
+
+.section1-img{
+    width: 12%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.section1-img img{
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 20px 0;
+    
+}
+
+.section2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    border-bottom: 12px solid white;
+}
+
+.greetings-container{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0;
+    background: rgba(223, 228, 234, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
+
+}
+.headingg{
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+    float: left;
+    overflow: hidden;
+}
+
+.headingg h1{
+    width: 64%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 38pt;
+    color: rgba(64, 64, 122,1.0);
+    border-bottom: 2px solid rgba(64, 64, 122, 0.2);
+    
+}
+
+.textt{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.textt p{
+    width: 78%;
+    margin: 0 auto;
+    padding: 10px 0px 25px 0px;
+    text-align: center;
+    font-weight: 400px;
+    color: rgba(64, 64, 122, 0.9);
+    line-height: 40px;
+    font-size: 13pt;
+    
+}
+
+span{
+    margin: 0;
+    padding: 0;
+}
+
+.section3{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    border-bottom: 12px solid white;
+}
+
+.about-container{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0;
+    background: rgba(223, 228, 234, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
+}
+
+.about-me-table{
+    width: 100%;
+    margin: 0;
+    padding: 0 0 25px 0px;
+    float: left;
+    overflow: hidden;
+}
+
+.about-me-table table{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    color:rgba(64, 64, 122, 0.9);
+    font-size: 13pt;
+    
+}
+.section4{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    border-bottom: 12px solid white;
+}
+
+.skills-container{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0 0 42px 0;
+    background: rgba(223, 228, 234, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
+}
+
+.skill-progress{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+.skill-progress h3{  
+    width: 55%;
+    margin: 0 auto;
+    padding: 18px 0 5px 0;
+    color: rgba(64, 64, 122, 0.9);
+    
+}
+.bootstrap-progress-width{
+    width: 55% !important;
+    margin: 0 auto;
+    
+}
+
+.section5{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    border-bottom: 12px solid white;
+}
+
+.video-container{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0 0 35px 0;
+    background: rgba(223, 228, 234, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
+}
+
+.video{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+.iframe-width-setter{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.iframe-width-setter iframe{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 5px solid rgba(64, 64, 122, 0.2);
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.4);
+}
+.section6{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    border-bottom: 12px solid white;
+}
+
+.works-container{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0 0 35px 0;
+    background: rgba(223, 228, 234, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
+}
+.lists{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+.list-with-links{
+    width: 55%;
+    margin: 0 auto;
+    padding: 0;
+}
+.list-with-links ul{
+    margin: 0;
+    padding: 5px 0 0 0;
+    list-style-image: url("https://image.ibb.co/hevVPS/man_in_office_desk_with_computer.png");
+}
+.list-with-links ul li{
+    margin: 0;
+    padding: 8px 0;
+    
+}
+.list-with-links a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color:rgba(64, 64, 122, 0.9);
+    font-size: 14pt;
+}
+
+.list-with-links a:hover{
+   color:rgba(15, 185, 177,1.0);
+}
+
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.footer-container{
+    width: 92%;
+    margin: 0 auto;
+    padding: 0;
+    background: rgba(64, 115, 158,1.0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px  rgba(0,0,0,0.5);
+}
+
+.headingg h2{
+    width: 64%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 38pt;
+    color: #ecf0f1;
+    border-bottom: 2px solid rgba(236, 240, 241, 0.5);
+    
+}
+.social-links{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+.contact-container{
+    width:30%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.social{
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+}
+
+.social a{
+    display: block;
+    text-align: center;
+}
+.copyright{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.copyright p{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+    color:#ecf0f1;
+    text-align: right;
+
+}
+.top{
+    width: 100%;
+    margin: 0;
+    padding: 0 0 30px 0;
+    float: left;
+    overflow: hidden; 
+}
+.goup{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+.top a{
+    text-decoration: none;
+    color: #ecf0f1;
+    float: right;
+    font-size: 12pt;
+    font-family: inherit;
+}
+
+
+/* media query */
+
+@media all and (max-width: 1195px){
+    .headingg h1{
+        width: 66%; 
+        font-size: 36pt;
+    }
+    .iframe-width-setter{
+        width: 50%;
+        
+    }
+    .headingg h2{
+        width: 66%;  
+        font-size: 36pt;  
+    }
+}
+
+@media all and (max-width: 1094px){
+    .headingg h1{
+        width: 68%; 
+        font-size: 34pt;
+    }
+    .iframe-width-setter{
+        width: 52%;
+        
+    }
+    .headingg h2{
+        width: 68%;  
+        font-size: 34pt;  
+    }
+    .header-img{
+        width: 18%;
+
+    }
+    .section1-img{
+        width: 14%;
+        
+    }
+}
+
+@media all and (max-width: 1000px){
+    .headingg h1{
+        width: 70%; 
+        font-size: 33pt;
+    }
+    .headingg h2{
+        width: 70%;  
+        font-size: 33pt;  
+    }
+}
+
+@media all and (max-width: 956px){
+    .header-img{
+        width: 20%;
+        padding: 32px 0;
+    }
+    .section1-img{
+        width: 16%;
+        
+    }
+}
+
+@media all and (max-width: 943px){
+    .headingg h1{
+        width: 70%; 
+        font-size: 30pt;
+    }
+    .iframe-width-setter{
+        width: 55%;
+        
+    }
+    .headingg h2{
+        width: 70%;  
+        font-size: 30pt;  
+    }
+    
+    .section1-img{
+        width: 17%;
+        
+    }
+}
+
+@media all and (max-width: 910px){
+    .headingg h1{
+        width: 72%; 
+        font-size: 28pt;
+    }
+    .iframe-width-setter{
+        width: 58%;
+        
+    }
+    .headingg h2{
+        width: 72%;  
+        font-size: 28pt;  
+    }
+    
+    .section1-img{
+        width: 18%;
+        
+    }
+    .header-img{
+        width: 22%;
+        padding: 30px 0;
+    }
+    .textt p{
+        width: 80%;
+        padding: 8px 5px 23px 5px;
+        line-height: 38px;
+        font-size: 11pt;
+        
+    }
+}
+
+@media all and (max-width: 840px){
+    .contact-container{
+        width:40%;
+    
+    }
+    .copyright p{
+        width: 80%;
+        padding: 30px 1px;
+        
+    
+    }
+}
+
+@media all and (max-width: 778px){
+    .headingg h1{
+        width: 76%; 
+        font-size: 24pt;
+    }
+    .iframe-width-setter{
+        width: 64%;
+        
+    }
+    .headingg h2{
+        width: 76%;  
+        font-size: 24pt;  
+    }
+    
+    .section1-img{
+        width: 20%;
+        
+    }
+    .header-img{
+        width: 23%;
+        padding: 26px 0;
+    }
+    .textt p{
+        line-height: 34px;
+        font-size: 11pt;
+        
+    }
+    .about-me-table table{
+        width: 70%;
+        font-size: 12pt; 
+    }
+    .bootstrap-progress-width{
+        width: 70% !important;
+        
+    }
+    .skill-progress h3{  
+        width: 68%;
+        font-size: 14pt;
+         
+    }
+    .list-with-links{
+        width: 60%;
+    }
+    .list-with-links a{
+        font-size: 13pt;
+    }
+    .contact-container{
+        width:44%;
+    
+    }
+    .social img{
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 712px){
+    
+    .iframe-width-setter{
+        width: 66%;
+        
+    }
+   
+    .header-img{
+        width: 24%;
+        padding: 22px 0;
+    }
+    
+    .about-me-table table{
+        width: 74%;
+        color:rgba(64, 64, 122, 0.9);
+        font-size: 12pt; 
+    }
+    .bootstrap-progress-width{
+        width: 72% !important;
+        
+    }
+    .textt p{
+        width: 84%;
+        
+    }
+}
+
+@media all and (max-width: 632px){
+    .header-img{
+        width: 26%;
+        padding: 20px 0;
+    }
+    .headingg h1{
+        width: 80%; 
+        font-size: 22pt;
+    }
+    .headingg h2{
+        width: 80%;  
+        font-size: 22pt;  
+    }
+    .section1-img{
+        width: 24%;
+        
+    }
+    .textt p{
+        width: 85%;
+        font-size: 10pt;
+    }
+    .about-me-table table{
+        width: 76%;
+        font-size: 10pt; 
+    }
+    .bootstrap-progress-width{
+        width: 72% !important;
+        
+    }
+    .skill-progress h3{  
+        width: 70%;
+        font-size: 12pt;
+         
+    }
+    .iframe-width-setter{
+        width: 68%;  
+    }
+    .iframe-width-setter iframe{
+        height: 250px;
+        
+    }
+    .contact-container{
+        width:50%;
+    
+    }
+    .list-with-links{
+        width: 64%;
+    }
+    .list-with-links a{
+        font-size: 12pt;
+    }
+}
+
+@media all and (max-width: 550px){
+    .header-img{
+        width: 31%;
+        padding: 18px 0;
+    }
+    .headingg h1{
+        width: 84%; 
+        font-size: 20pt;
+    }
+    .headingg h2{
+        width: 84%;  
+        font-size: 20pt;  
+    }
+    .section1-img{
+        width: 26%;
+        
+    }
+    .textt p{
+        width: 88%;
+        font-size: 11pt;
+    }
+    .about-me-table table{
+        width: 80%;
+        font-size: 11pt; 
+    }
+    .bootstrap-progress-width{
+        width: 76% !important;
+        
+    }
+    .skill-progress h3{  
+        width: 74%;
+         
+    }
+    .iframe-width-setter{
+        width: 80%;  
+    }
+    .contact-container{
+        width:60%;
+    
+    }
+    .list-with-links{
+        width: 66%;
+    }
+    .iframe-width-setter iframe{
+        height: 230px;
+        
+    }
+}
+
+@media all and (max-width: 478px){
+    .header-img{
+        width: 32%;
+        padding: 20px 0;
+    }
+    .headingg h1{
+        width: 88%; 
+        font-size: 19pt;
+    }
+    .headingg h2{
+        width: 88%;  
+        font-size: 19pt;  
+    }
+    .section1-img{
+        width: 27%;
+        
+    }
+    .textt p{
+        width: 90%;
+        font-size: 10pt;
+    }
+    .about-me-table table{
+        width: 82%;
+        font-size: 11pt; 
+    }
+    .bootstrap-progress-width{
+        width: 78% !important;
+        
+    }
+    .skill-progress h3{  
+        width: 76%;
+         
+    }
+    .iframe-width-setter{
+        width: 84%;  
+    }
+    .contact-container{
+        width:70%;
+    
+    }
+    .social img{
+        width: 40%;
+    }
+    .list-with-links{
+        width: 68%;
+    }
+    .iframe-width-setter iframe{
+        height: 210px;
+        
+    }
+    .copyright p{
+        width: 80%;
+        padding: 30px 0;
+        text-align: right;
+    
+    }
+}
+
+@media all and (max-width: 432px){
+    .header-img{
+        width: 35%;
+        
+    }
+    .headingg h1{
+        width: 90%; 
+        font-size: 18pt;
+    }
+    .headingg h2{
+        width: 90%;  
+        font-size: 18pt;  
+    }
+    .section1-img{
+        width: 28%;
+        
+    }
+    .textt p{
+        width: 90%;
+        font-size: 10pt;
+    }
+    .about-me-table table{
+        width: 86%;
+        font-size: 11pt; 
+    }
+    .bootstrap-progress-width{
+        width: 82% !important;
+        
+    }
+    .skill-progress h3{  
+        width: 80%;
+         
+    }
+    .iframe-width-setter{
+        width: 86%;  
+    }
+    .contact-container{
+        width:74%;
+    
+    }
+    .social img{
+        width: 50%;
+    }
+    .list-with-links{
+        width: 70%;
+        
+    }
+    .list-with-links a{
+        font-size: 10pt;
+    }
+    .iframe-width-setter iframe{
+        height: 186px;
+        
+    }
+
+}
+
+@media all and (max-width: 400px){
+    .headingg h1{
+         
+        font-size: 16pt;
+    }
+    .headingg h2{
+       
+        font-size: 16pt;  
+    }
+}
+
+@media all and (max-width: 358px){
+    .headingg h1{
+         
+        font-size: 14pt;
+    }
+    .headingg h2{
+       
+        font-size: 14pt;  
+    }
+}
+
+@media all and (max-width: 322px){
+    .headingg h1{
+         
+        font-size: 12pt;
+    }
+    .headingg h2{
+       
+        font-size: 12pt;  
+    }
+}
+
+/* Code by Saleh-Ibne-Omar 
+Date: 09-May-2018
+*/
