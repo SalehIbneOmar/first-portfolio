@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', monospace;
+	background-color: #dfe6e9;
 }
 
 header{
@@ -15,7 +16,7 @@ header{
     padding: 0;
     float: left;
     width: 100%;
-    border-bottom: 12px solid white;
+    border-bottom: 12px solid #dfe6e9;
 }
 
 .header-img-container{
@@ -45,14 +46,14 @@ header{
     padding: 0;
     float: left;
     overflow: hidden;
-    border-bottom: 12px solid white;
+    border-bottom: 12px solid #dfe6e9;
 }
 
 .section1-img-container{
     width: 92%;
     margin: 0 auto;
     padding: 0;
-    background: rgba(223, 228, 234, 0.5);
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
 }
@@ -75,14 +76,14 @@ header{
     padding: 0;
     float: left;
     overflow: hidden;
-    border-bottom: 12px solid white;
+    border-bottom: 12px solid #dfe6e9;
 }
 
 .greetings-container{
     width: 92%;
     margin: 0 auto;
     padding: 0;
-    background: rgba(223, 228, 234, 0.5);
+    background-color: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
@@ -139,14 +140,14 @@ span{
     padding: 0;
     float: left;
     overflow: hidden;
-    border-bottom: 12px solid white;
+    border-bottom: 12px solid #dfe6e9;
 }
 
 .about-container{
     width: 92%;
     margin: 0 auto;
     padding: 0;
-    background: rgba(223, 228, 234, 0.5);
+    background-color: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
@@ -174,14 +175,14 @@ span{
     padding: 0;
     float: left;
     overflow: hidden;
-    border-bottom: 12px solid white;
+    border-bottom: 12px solid #dfe6e9;
 }
 
 .skills-container{
     width: 92%;
     margin: 0 auto;
     padding: 0 0 42px 0;
-    background: rgba(223, 228, 234, 0.5);
+    background-color: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
@@ -213,14 +214,14 @@ span{
     padding: 0;
     float: left;
     overflow: hidden;
-    border-bottom: 12px solid white;
+    border-bottom: 12px solid #dfe6e9;
 }
 
 .video-container{
     width: 92%;
     margin: 0 auto;
     padding: 0 0 35px 0;
-    background: rgba(223, 228, 234, 0.5);
+    background-color: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
@@ -251,14 +252,14 @@ span{
     padding: 0;
     float: left;
     overflow: hidden;
-    border-bottom: 12px solid white;
+    border-bottom: 12px solid #dfe6e9;
 }
 
 .works-container{
     width: 92%;
     margin: 0 auto;
     padding: 0 0 35px 0;
-    background: rgba(223, 228, 234, 0.5);
+    background-color: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 1px  rgba(0,0,0,0.4);
